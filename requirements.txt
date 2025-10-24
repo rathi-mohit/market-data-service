@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+duckdb
+pandas
+pyarrow
+python-dotenv
+requests
+fastapi-cache2
+pydantic
