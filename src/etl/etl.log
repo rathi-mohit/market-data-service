@@ -1,0 +1,3 @@
+2025-10-31 14:16:04,444 [INFO] Starting API extraction with mode full
+2025-10-31 14:16:04,444 [ERROR] AV_API_KEY not found. Set it in your .env file.
+2025-10-31 14:16:04,444 [ERROR] Extraction failed, data was empty.

@@ -7,7 +7,7 @@ import duckdb
 import pandas as pd
 import logging
 import time
-from src.core.config import PROCESSED_DATA_PATH, DB_FILE, TABLE_NAME
+from core.config import PROCESSED_DATA_PATH, DB_FILE, TABLE_NAME
 
 # Again, logging as wanted in 3.1
 logging.basicConfig(

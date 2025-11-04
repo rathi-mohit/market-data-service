@@ -11,7 +11,7 @@ import time
 import os
 import logging
 import argparse # (For command line argument parsing)
-from src.core.config import AV_API_KEY, TICKERS, BASE_URL, RAW_DATA_PATH
+from core.config import AV_API_KEY, STOCKS, BASE_URL, RAW_DATA_PATH
 
 # Logging, as wanted in 3.1
 logging.basicConfig(
@@ -28,14 +28,13 @@ def fetch_data(output_mode="full"):
     all_stock_data = []
     # This will be a list of dataframes
 
-
     logging.info(f"Starting API extraction with mode {output_mode}")
 
     if not AV_API_KEY:
         logging.error("AV_API_KEY not found. Set it in your .env file.")
         return None
 
-    for stock in TICKERS:
+    for stock in STOCKS:
         logging.info(f"Fetching data for {stock}")
 
         # I define params here, based on alpha-vantage api documentation

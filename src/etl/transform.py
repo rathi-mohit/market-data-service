@@ -11,7 +11,7 @@ import pandas as pd
 import logging
 import os
 import argparse
-from src.core.config import RAW_DATA_PATH, PROCESSED_DATA_PATH
+from core.config import RAW_DATA_PATH, PROCESSED_DATA_PATH
 
 # logging again, as wanted in 3.1
 logging.basicConfig(
