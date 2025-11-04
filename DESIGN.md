@@ -110,7 +110,7 @@ Here is how this system would evolve to handle more complex requirements.
 
 ### 4.1. Handling 1000+ Stocks
 
-  * **ETL Pipeline:** The current sequential loop in `extract.py` (fetching one stock, waiting 30s) would be too slow. This could be parallelized using Python's `asyncio` (for concurrent API calls) or a job queue like **Celery** with multiple worker processes. Instead of a 30-second wait, we could make 5 calls in parallel, wait 30 seconds, and repeat, dramatically cutting down extraction time.
+  * **ETL Pipeline:** A paralleization simialr to openmp in C++ would help. The API calls themselves cannot be done much about unless we upgrade to a better version (maybe?) but the transform and load could be spread to different cores and parallelized. If it is legal to do so, we could also use multiple API keys (I am not sure if this is moral/ allowed)
   * **Database:** DuckDB will handle 1000+ stocks (millions of rows) for read queries without any issues. No change is needed for this step.
 
 ### 4.2. Handling Real-Time Data

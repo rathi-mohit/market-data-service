@@ -2,4 +2,5 @@ venv/
 
 .env
 
-cvt.py
+/cvt.py
+./xt.py
