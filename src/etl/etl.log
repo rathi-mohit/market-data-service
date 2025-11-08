@@ -1,3 +1,152 @@
 2025-10-31 14:16:04,444 [INFO] Starting API extraction with mode full
 2025-10-31 14:16:04,444 [ERROR] AV_API_KEY not found. Set it in your .env file.
 2025-10-31 14:16:04,444 [ERROR] Extraction failed, data was empty.
+2025-11-08 12:42:18,261 [INFO] Starting API extraction with mode full
+2025-11-08 12:42:18,261 [ERROR] AV_API_KEY not found. Set it in your .env file.
+2025-11-08 12:42:18,262 [ERROR] Extraction failed, data was empty.
+2025-11-08 12:43:09,867 [INFO] Starting API extraction with mode full
+2025-11-08 12:43:09,867 [INFO] Fetching data for AAPL
+2025-11-08 12:43:12,581 [INFO] Success for AAPL. Fetched 6546 records.
+2025-11-08 12:43:12,589 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:43:27,824 [INFO] Starting API extraction with mode full
+2025-11-08 12:43:27,824 [INFO] Fetching data for AAPL
+2025-11-08 12:43:30,500 [INFO] Success for AAPL. Fetched 6546 records.
+2025-11-08 12:43:30,500 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:43:30,500 [INFO] Fetching data for GOOGL
+2025-11-08 12:43:32,866 [INFO] Success for GOOGL. Fetched 5341 records.
+2025-11-08 12:43:32,866 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:43:32,866 [INFO] Fetching data for MSFT
+2025-11-08 12:43:34,844 [INFO] Success for MSFT. Fetched 6546 records.
+2025-11-08 12:43:34,844 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:43:34,844 [INFO] Fetching data for AMZN
+2025-11-08 12:43:36,813 [INFO] Success for AMZN. Fetched 6546 records.
+2025-11-08 12:43:36,813 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:43:36,813 [INFO] Fetching data for TSLA
+2025-11-08 12:43:38,738 [INFO] Success for TSLA. Fetched 3866 records.
+2025-11-08 12:43:38,738 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:43:38,738 [INFO] Concatenating all data.
+2025-11-08 12:43:39,150 [INFO] Raw data saved to data\raw\raw_data.parquet
+2025-11-08 12:43:39,150 [INFO] Extraction complete.
+2025-11-08 12:44:31,570 [INFO] Starting API extraction with mode full
+2025-11-08 12:44:31,570 [INFO] Fetching data for AAPL
+2025-11-08 12:44:33,814 [INFO] Success for AAPL. Fetched 6546 records.
+2025-11-08 12:44:33,814 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:44:33,814 [INFO] Fetching data for GOOGL
+2025-11-08 12:44:34,756 [INFO] Success for GOOGL. Fetched 5341 records.
+2025-11-08 12:44:34,758 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:44:34,758 [INFO] Fetching data for MSFT
+2025-11-08 12:44:37,187 [INFO] Success for MSFT. Fetched 6546 records.
+2025-11-08 12:44:37,187 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:44:37,187 [INFO] Fetching data for AMZN
+2025-11-08 12:44:38,235 [INFO] Success for AMZN. Fetched 6546 records.
+2025-11-08 12:44:38,235 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:44:38,235 [INFO] Fetching data for TSLA
+2025-11-08 12:44:40,581 [INFO] Success for TSLA. Fetched 3866 records.
+2025-11-08 12:44:40,581 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:44:40,581 [INFO] Fetching data for META
+2025-11-08 12:44:42,912 [INFO] Success for META. Fetched 3389 records.
+2025-11-08 12:44:42,912 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:44:42,912 [INFO] Concatenating all data.
+2025-11-08 12:44:42,984 [INFO] Raw data saved to data\raw\raw_data.parquet
+2025-11-08 12:44:42,984 [INFO] Extraction complete.
+2025-11-08 12:45:10,443 [INFO] Starting API extraction with mode full
+2025-11-08 12:45:10,444 [INFO] Fetching data for AAPL
+2025-11-08 12:45:12,666 [INFO] Success for AAPL. Fetched 6546 records.
+2025-11-08 12:45:12,666 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:45:12,666 [INFO] Fetching data for GOOGL
+2025-11-08 12:45:14,628 [INFO] Success for GOOGL. Fetched 5341 records.
+2025-11-08 12:45:14,628 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:45:14,628 [INFO] Fetching data for MSFT
+2025-11-08 12:45:16,768 [INFO] Success for MSFT. Fetched 6546 records.
+2025-11-08 12:45:16,768 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:45:16,768 [INFO] Fetching data for AMZN
+2025-11-08 12:45:18,758 [INFO] Success for AMZN. Fetched 6546 records.
+2025-11-08 12:45:18,758 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:45:18,758 [INFO] Fetching data for TSLA
+2025-11-08 12:45:20,913 [INFO] Success for TSLA. Fetched 3866 records.
+2025-11-08 12:45:20,913 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:45:20,915 [INFO] Fetching data for META
+2025-11-08 12:45:21,840 [INFO] Success for META. Fetched 3389 records.
+2025-11-08 12:45:21,840 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:45:21,840 [INFO] Fetching data for LLY
+2025-11-08 12:45:23,855 [INFO] Success for LLY. Fetched 6546 records.
+2025-11-08 12:45:23,855 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:45:23,855 [INFO] Fetching data for JPM
+2025-11-08 12:45:25,806 [INFO] Success for JPM. Fetched 6546 records.
+2025-11-08 12:45:25,806 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:45:25,806 [INFO] Fetching data for V
+2025-11-08 12:45:27,802 [INFO] Success for V. Fetched 4440 records.
+2025-11-08 12:45:27,802 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:45:27,802 [INFO] Fetching data for NVDA
+2025-11-08 12:45:28,921 [INFO] Success for NVDA. Fetched 6546 records.
+2025-11-08 12:45:28,921 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:45:28,921 [INFO] Concatenating all data.
+2025-11-08 12:45:29,066 [INFO] Raw data saved to data\raw\raw_data.parquet
+2025-11-08 12:45:29,066 [INFO] Extraction complete.
+2025-11-08 12:46:57,126 [INFO] Starting API extraction with mode full
+2025-11-08 12:46:57,126 [INFO] Fetching data for AAPL
+2025-11-08 12:46:59,904 [INFO] Success for AAPL. Fetched 6546 records.
+2025-11-08 12:46:59,909 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:46:59,910 [INFO] Fetching data for GOOGL
+2025-11-08 12:47:01,169 [INFO] Success for GOOGL. Fetched 5341 records.
+2025-11-08 12:47:01,169 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:47:01,170 [INFO] Fetching data for MSFT
+2025-11-08 12:47:03,258 [INFO] Success for MSFT. Fetched 6546 records.
+2025-11-08 12:47:03,259 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:47:03,259 [INFO] Fetching data for AMZN
+2025-11-08 12:47:05,874 [INFO] Success for AMZN. Fetched 6546 records.
+2025-11-08 12:47:05,874 [INFO] Waiting 15 seconds to avoid rate limits
+2025-11-08 12:47:05,874 [INFO] Fetching data for TSLA
+2025-11-08 12:47:06,494 [ERROR] Could not parse JSON for TSLA. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:06,494 [INFO] Fetching data for META
+2025-11-08 12:47:07,097 [ERROR] Could not parse JSON for META. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:07,097 [INFO] Fetching data for LLY
+2025-11-08 12:47:08,330 [ERROR] Could not parse JSON for LLY. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:08,330 [INFO] Fetching data for JPM
+2025-11-08 12:47:08,937 [ERROR] Could not parse JSON for JPM. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:08,937 [INFO] Fetching data for V
+2025-11-08 12:47:09,561 [ERROR] Could not parse JSON for V. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:09,561 [INFO] Fetching data for NVDA
+2025-11-08 12:47:10,164 [ERROR] Could not parse JSON for NVDA. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:10,164 [INFO] Fetching data for ORCL
+2025-11-08 12:47:10,766 [ERROR] Could not parse JSON for ORCL. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:10,766 [INFO] Fetching data for PYPL
+2025-11-08 12:47:11,392 [ERROR] Could not parse JSON for PYPL. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:11,392 [INFO] Fetching data for ADBE
+2025-11-08 12:47:12,019 [ERROR] Could not parse JSON for ADBE. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:12,019 [INFO] Fetching data for CSCO
+2025-11-08 12:47:12,620 [ERROR] Could not parse JSON for CSCO. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:12,636 [INFO] Fetching data for NFLX
+2025-11-08 12:47:13,254 [ERROR] Could not parse JSON for NFLX. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:13,254 [INFO] Fetching data for INTC
+2025-11-08 12:47:13,891 [ERROR] Could not parse JSON for INTC. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:13,891 [INFO] Fetching data for CRM
+2025-11-08 12:47:14,500 [ERROR] Could not parse JSON for CRM. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:14,500 [INFO] Fetching data for ABNB
+2025-11-08 12:47:15,118 [ERROR] Could not parse JSON for ABNB. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:15,118 [INFO] Fetching data for UBER
+2025-11-08 12:47:15,724 [ERROR] Could not parse JSON for UBER. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:15,726 [INFO] Fetching data for SQ
+2025-11-08 12:47:16,316 [ERROR] Could not parse JSON for SQ. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:16,332 [INFO] Fetching data for ZM
+2025-11-08 12:47:16,943 [ERROR] Could not parse JSON for ZM. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:16,945 [INFO] Fetching data for DOCU
+2025-11-08 12:47:17,553 [ERROR] Could not parse JSON for DOCU. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:17,553 [INFO] Fetching data for TWTR
+2025-11-08 12:47:18,178 [ERROR] Could not parse JSON for TWTR. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:18,178 [INFO] Fetching data for SNAP
+2025-11-08 12:47:18,788 [ERROR] Could not parse JSON for SNAP. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:18,788 [INFO] Fetching data for SHOP
+2025-11-08 12:47:19,384 [ERROR] Could not parse JSON for SHOP. Response: {'Information': 'We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+2025-11-08 12:47:19,384 [INFO] Fetching data for SPOT
+2025-11-08 12:47:19,992 [WARNING] API Note for SPOT: We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please visit https://www.alphavantage.co/premium/ if you would like to target a higher API call frequency.
+2025-11-08 12:47:20,008 [ERROR] WE Hit rate limit. Abandoning.
+2025-11-08 12:47:20,008 [INFO] Concatenating all data.
+2025-11-08 12:47:20,074 [INFO] Raw data saved to data\raw\raw_data.parquet
+2025-11-08 12:47:20,074 [INFO] Extraction complete.
+2025-11-08 12:47:27,103 [INFO] Starting API extraction with mode full
+2025-11-08 12:47:27,103 [INFO] Fetching data for AAPL
+2025-11-08 12:47:27,716 [WARNING] API Note for AAPL: We have detected your API key as ARQKQMHPU2DHZP6Q and our standard API rate limit is 25 requests per day. Please visit https://www.alphavantage.co/premium/ if you would like to target a higher API call frequency.
+2025-11-08 12:47:27,722 [ERROR] WE Hit rate limit. Abandoning.
+2025-11-08 12:47:27,722 [ERROR] No data was extracted. Exiting.
+2025-11-08 12:47:27,722 [ERROR] Extraction failed, data was empty.

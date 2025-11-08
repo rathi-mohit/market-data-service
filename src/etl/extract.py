@@ -64,8 +64,8 @@ def fetch_data(output_mode="full"):
             all_stock_data.append(df)
             
             logging.info(f"Success for {stock}. Fetched {len(df)} records.")
-            logging.info("Waiting 30 seconds to avoid rate limits")
-            time.sleep(30)
+            logging.info("Waiting 15 seconds to avoid rate limits")
+            # time.sleep(15)
 
         # Handling errors 
         except requests.exceptions.RequestException as e:
